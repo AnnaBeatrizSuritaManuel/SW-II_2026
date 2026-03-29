@@ -1,0 +1,17 @@
+<?php
+    //gerar número aleatória
+
+    function gera_numero(){
+        $sorteio = rand(1,50);
+        echo $sorteio ."<br>";
+    }
+
+    gera_numero();
+    gera_numero();
+    gera_numero();
+    gera_numero();
+    gera_numero();
+    gera_numero();
+    gera_numero();
+
+?>
